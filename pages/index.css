@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+@font-face {
+    font-family: "alValenciaga";
+    src: url('../assets/fonts/al_valenciaga.ttf');
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-image: linear-gradient(60deg, #0F1625, #36008d);
+    
+    color: azure;
+    overflow-x: hidden;
+}
+
+
+#header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 250px;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#main{
+    position: absolute;
+    left: 0;
+    top: 250px;
+    width: 100vw;
+    text-align: center;
+}
+
+#main > h1{
+    font-size: 2.5em;
+}
+
+#headerBg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    background-size: cover;
+    background-image: url("../assets/img/bg.jpeg");
+    width: 100vw;
+    height: 250px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 20px 1000px 50px black;
+}
+
+#innerHeader{
+    height: 100%;
+}
+#name{
+    position: relative;
+    font-family: "alValenciaga", sans-serif;
+    font-size: 25px;
+    float: right;
+    top: 30%;
+    right: 40%;
+    text-transform: uppercase;
+    color: azure;
+}
+
+#pfp{
+    position: relative;
+    float: left;
+    top: 10%;
+    left: 20%;
+    height: 200px;
+    
+}
+
+
+#info{
+    position: relative;
+    float: right;
+    top: 18%;
+    right: -10%;
+    height: 150px;
+    width: 290px;
+    background-color: #AA8CCF;
+    border-radius: 20px;
+    padding: 10px;
+    border: 3px solid black;
+    
+}
+
+#info > div {
+    width: 100%;
+}
+
+#mailSvg{
+    float: left;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#mail{
+    
+    color: #0f1625;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#mailDiv{
+    margin-top: 30px;
+}
+#telDiv{
+    margin-top: 40px;
+}
+#telSvg{
+    float: left;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#tel{
+    float: left;
+    color: #0f1625;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#description{
+    font-size: large;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    box-shadow: 5px 5px 5px 5px #12122c;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+#description:hover{
+    background-color: #2b1e63;
+    box-shadow: 10px 10px 10px 10px #12122c;
+}
+
+#projectsBtn{
+    background-color: #41659c;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: none;
+    border-style: none;
+    font-size: 1.25em;
+}
+
+#projectsBtn:hover{
+    background-color: #639CF0;
+    color: black;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #12122c;
+}
