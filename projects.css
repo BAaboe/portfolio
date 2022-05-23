@@ -42,7 +42,7 @@ body{
     top: 0;
     opacity: 1;
     background-size: cover;
-    background-image: url("../assets/img/bg.jpeg");
+    background-image: url("assets/img/bg.jpeg");
     width: 100vw;
     height: var(--header-height);
     border-bottom-right-radius: 20px;
@@ -56,6 +56,10 @@ body{
 
 .pjTitle{
     margin-bottom: 50px;
+}
+
+.pjTitle:hover{
+    text-shadow: 20px 20px 20px black;
 }
 
 #flappygoinImg {
